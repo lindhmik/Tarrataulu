@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+<meta charset="utf-8">
+<title>Tehtävätaulut</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css?family=Give+You+Glory|Permanent+Marker|Reenie+Beanie|Rock+Salt|Shadows+Into+Light" rel="stylesheet">
+<link href="todo.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="container" style="width:100%; height:auto;">
+
+<div id="header"><h1>Tehtävätaulu!</h1></div>
+<div id="vasen">
+    <section class ="selitteet">
+  <h2>Muistilaput</h2><p id="ohje" >Kirjoita muistiinpano ja raahaa tarralappu taululle. Lappua voi zoomata klikkaamalla sitä.</p>
+ 
+  <div class="input-group">
+    <input type="text" class="form-control" style="font-size:16px" placeholder="Syötä muistiinpano" aria-describedby="basic-addon1" onkeydown="testaaNappi(event)"><br>
+    <button style="font-size:22px; background:green; margin-left:2px; margin-top:5px; border-radius:4px;" onClick="luoLappu()"><i class="fa fa-arrow-circle-right"></i></button>
+  </div>
+    <h3 id="uusiLappunen" style="visibility:visible">Raahaa tarralappu --></h3> 
+    </section>
+    <img src= "img/handu.jpg" class="kuvitukset" id="handu" draggable="false" width="93%"; style="display:block">
+    <img src= "img/valkopieni.jpg" class="kuvitukset" id="valko" draggable="false" width="93%"; style="display:none">
+    <div id="alalinkit"><p>Kuvia klikkaamalla voit vaihtaa tarratalusta tussitauluun ja päinvastoin:</p> 
+    <img id="tarrat" src="img/post-it-kuva.jpg" alt="tarrat" width="60px"><img id="todolista"src="img/to-do-list.jpg" alt="todolista" width="60px"> 
+    <br>
+    </div>
+</div>
+<div id ="isoikkuna">
+<div id ="lista"><h2 style="margin-left:25px">Tekemättömät asiat:</h2></div>
+<div id="infotaulu"><img src="img/noticeboard.png" alt="tarrataulu" ondrop="pudotaKohde(event),false" ondragover="raahaaYli(event),false" draggable="false" width="100%"></div>
+<img src="img/reunakuva.jpg" id="einstein" alt="koristelappu" width="15%" style="float:right"></div>
+<div id="footer"><p>@Mika Lindh, 2017 | demoversio 1</p></div>
+</div>
+
+
+</body>
+<script type="text/javascript" src="todoscript.js"></script> 
+
+</html>
+

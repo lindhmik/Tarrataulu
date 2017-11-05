@@ -1,0 +1,186 @@
+body{
+font-family:Comic Sans MS;
+background:url(img/kiviseina.jpg) center no-repeat;
+background-size:cover;
+color:white;
+}
+h1{
+margin-left: 12px;
+}
+
+
+.laput {
+ width: 90px;
+ height:90px;
+ font-family: 'Caveat';
+ color:blue;
+cursor:move;
+ font-size: 14px;
+ border-radius: 2px;
+border-right: 2px solid black;
+ border-bottom: 4px solid black;
+left:350px;
+top:170px;
+position:absolute;
+overflow:hidden;
+
+}
+
+#isoikkuna {
+width: 75%;
+min-height: 700px;
+float: left;
+margin-left:10px;
+}
+
+#infotaulu {
+margin-top:10px;
+margin-left:10px;
+width: 70%;
+float: left;
+
+}
+
+#lista {
+border: 2px solid;
+width: 80%;
+height: 645px;
+margin-left: 10px;
+margin-top: 10px;
+float: left;
+background:url(img/valkotaulu.jpg) center no-repeat;
+background-size:cover;
+color:black;
+overflow:auto;
+display:none;
+}
+#lista h2{
+font-family:Permanent Marker, 'cursive';
+text-decoration:underline;
+}
+
+#lista .deleteButtoni{
+float:right;
+margin-right:10px;
+display:none;
+position:absolute;
+top:5px;
+right:2px;
+}
+
+#lista .doneButtoni{
+float:right;
+display:none;
+position:absolute;
+top:5px;
+right:50px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left:20px;
+  padding: 0;
+}
+
+ul li {
+width:90%;
+padding: 2px 2px 8px 2px;
+margin-left:50px;
+position: relative;
+font-size:20px;
+color:blue;
+}
+
+
+#vasen {
+margin-top:10px;
+border-right:2px solid; 
+width:20%; 
+min-height:680px; 
+float:left;
+padding: 5px;
+}
+
+#alalinkit{
+width:90%;
+position:relative;
+background:black;
+top:10px;
+left: 10px;
+opacity: 0.7;
+border-radius:4px;
+padding: 3px 3px 3px 5px;
+}
+#alalinkit img{
+margin-left: 40px;
+}
+
+.selitteet{
+width:90%;
+margin-left:10px;
+position:relative;
+background:black;
+opacity: 0.9;
+border-radius:4px;
+padding: 3px 3px 3px 5px;
+}
+
+#header{
+background:black;
+opacity: 0.6;
+height:90px;
+margin-left:15px;
+border-radius: 4px;
+}
+
+.buttons_tehty{
+position:absolute;
+width:30px;
+height:30px;
+left:0;
+bottom:0;
+border-style: none;
+display:none;
+
+}
+
+.buttons_poista{
+position:absolute;
+width:30px;
+height:30px;
+right:0;
+bottom:0;
+border-style: none;
+display:none;
+
+}
+#footer{
+width: 100%;
+height:120px;
+clear:both; 
+padding: 5px; 
+margin-left:15px;
+background: black;
+opacity: 0.5;
+}
+
+#footer p{
+text-align: center; 
+color:red;
+opacity:1;
+top:50px;
+}
+
+.kuvitukset{
+margin-left:10px;
+margin-top:10px;
+border-radius:4px;
+opacity: 0.8;
+}
+
+#einstein {
+position: relative;
+margin-top: 250px;
+margin-left: 20px;
+float:left;
+}
